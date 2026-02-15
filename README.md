@@ -91,7 +91,7 @@ Vista https://jwtsecrets.com/ y coloca el `Secret Length` en 128 bits dale click
 Ejecuta el comando `dotnet restore`(solo una vez) para instalar las "dependencias", luego puedes ejecutar el proyecto con el comando `dotnet run`
 
 Si todo sale bien, al entrar en el siguiente enlace http://localhost:5125/ deberías de poder visualizar algo por el estilo
-![[Pasted image 20260215152924.png]]
+[![[Pasted image 20260215152924.png]]](https://github.com/OscarLezcano/Simple-BackEnd-Project/edit/master/README.md)
 
 ***
 
