@@ -102,15 +102,15 @@ Si todo sale bien, al entrar en el siguiente enlace http://localhost:5125/ deber
 Para este proyecto funciones correctamente es necesario realizar una pequeña configuración en tu base de datos.
 
 - En la tabla de `Roles` deberás añadir lo siguiente:
-![[Pasted image 20260215153320.png]]
+<img src="./IMGs/Pasted image 20260215153320.png" alt="Descripción de la imagen">
 
 ### Creación de administrador
 
 #### Primero crearemos un usuario común:
 1. Para eso regresa al swagger y sigue los pasos para registrar un usuario
- ![[Pasted image 20260215153704.png]]
-![[Pasted image 20260215153820.png]]
-![[Pasted image 20260215153852.png]]
+<img src="./IMGs/Pasted image 20260215153704.png" alt="Descripción de la imagen">
+<img src="./IMGs/Pasted image 20260215153820.png" alt="Descripción de la imagen">
+<img src="./IMGs/Pasted image 20260215153852.png" alt="Descripción de la imagen">
 
 2. Volvemos a la Base Datos y cambiamos su `RolId` a `0` (el cual es el id del admin, si lo configuraste como se indica en este tutorial)  
 
@@ -172,9 +172,9 @@ Ejemplo:
  ```
  
  Aquí ErrorMessage contiene un string hardcodeado  sin embargo en nuestro código nosotros guardamos estos mensajes dentro de constantes como se aprecia en la imagen
- 
- ![[Pasted image 20260215162420.png]]
 
+ <img src="./IMGs/Pasted image 20260215162420.png" alt="Descripción de la imagen">
+ 
 Y los usamos de la siguiente manera *(recomiendo encarecidamente revisar esos archivos para no perderse)*
 
 ```C#
